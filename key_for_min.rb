@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       test_ = value
     end
     test_ = value if value < test_
-    answer = key if test == value
+    answer = key if test_ == value
   end
   answer
 end
