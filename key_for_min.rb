@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   counter = FALSE
-  name_hash.collect do |key,value|
+  name_hash.each do |key,value|
     if counter = FALSE
       counter = TRUE
       test = value
