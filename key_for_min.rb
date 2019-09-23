@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   counter = false
+  test_ = 1
   name_hash.each do |key,value|
     if counter == false
       counter = true
